@@ -1,0 +1,104 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.main-container{
+  width:100%;
+  height:100vh;
+  padding:40px 75px;
+}
+
+
+
+.main-container .header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .header .title h2{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.header .items a{
+  color: white;
+  margin-left: 75px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.items a span{
+  background-color: white;
+  color:black;
+  padding:5px 23px;
+  border-radius: 16px;
+}
+.main{
+  margin-top:150px;
+  margin-left: 20px;
+}
+.main h2{
+  font-size: 75px;
+  color:white;
+  font-weight: 500;
+}
+.main .explore{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  padding:3px;
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  outline:none;
+  color:grey;
+  margin-top: 50px;
+}
+
+.explore img{
+  width:35px;
+  margin-left: 20px;
+}
+.bottom{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.bottom .circle{
+  width:8px;
+  height:8px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin:5px;
+  cursor: pointer;
+}
+.bottom .vc{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.vc img{
+  width:40px;
+  margin:20px;
+  cursor: pointer;
+}
+.vc p{
+  color:white;
+  font-size:16px;
+}
+.red{  
+  width:8px;
+  height:8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin:5px;
+  cursor: pointer;
+  background-color:orangered;
+}

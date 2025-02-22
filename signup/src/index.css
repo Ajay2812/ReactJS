@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+    background-color:darkmagenta;
+    padding:40px;
+
+  }
+  .container{
+    background-color: white;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+  }
+  .container h1{
+    color:darkmagenta;
+    border-bottom: 3px solid darkmagenta;
+    margin-bottom: 30px;
+  }
+  .input-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 100%;
+
+
+  }
+  .input-form input{
+    padding:15px;
+    margin-bottom: 10px;
+    background-color: rgb(233, 232, 232);
+    outline: none;
+    border: 0;
+    color:grey;
+    font-size: 14px;
+    padding-left: 30px;
+  }
+  .btns{
+    display: flex;
+    gap:30px;
+    margin: 60px auto;
+  }
+  
+  
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    height:50px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    background-color: darkmagenta;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  .submit{
+    color:black;
+    background-color: rgb(233, 232, 232);
+  }
+.forget{
+  display: flex;
+  align-items: center;
+}
+.forget p{
+  font-size: 14px;
+  color:grey;
+}
+.forget a{
+  font-size: 14px;
+  margin-left: 8px;
+  text-decoration: none;
+}

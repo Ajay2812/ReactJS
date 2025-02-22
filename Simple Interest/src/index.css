@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  margin:0;
+}
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container{
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  padding:30px;
+  margin-top: 50px;
+
+}
+.container .p1{
+  color:grey;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.container .result{
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:20px 0px;
+  margin-top:20px;
+  margin-bottom: 30px;
+
+}
+.result p{
+  margin-top: 5px;
+  color:grey;
+  font-size: 14px;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+}
+.container form input{
+  outline:none;
+  padding:15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color:grey;
+  font-size: 14px;
+}
+.btns{
+  margin-top: 30px;
+}
+.btns button{
+  width:150px;
+  height:50px;
+  border:1px solid grey;
+  outline: none;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  color:grey;
+}
+.btns .cal{
+  color:white;
+  background-color: black;
+  margin-right: 20px;
+}
